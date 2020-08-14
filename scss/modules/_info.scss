@@ -2,10 +2,15 @@
   font-family: 'Lato', sans-serif;
   margin: 80px 0;
 
+  @media (max-width: 767px){
+    margin: 50px 0 0;
+  }
+
 
   &-block {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
 
     &__title {
@@ -22,7 +27,7 @@
       line-height: 1.5;
       text-align: center;
       color: #7f8c8d;
-      margin: 40px 0 30px;
+      margin: 35px 0 30px;
     }
 
     &__btn {
@@ -30,6 +35,10 @@
       color: #16a085;
       border: solid 1px #16a085;
       margin: 0 auto;
+
+      @media (max-width: 767px){
+        margin-bottom: 50px;
+      }
     }
   }
 }

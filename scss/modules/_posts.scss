@@ -2,6 +2,10 @@
   font-family: 'Open Sans', sans-serif;
   background: #ecf0f1;
 
+  @media (max-width: 767px){
+    text-align: center;
+  }
+
   &__title {
     font-family: 'Lato', sans-serif;
     font-size: 28px;

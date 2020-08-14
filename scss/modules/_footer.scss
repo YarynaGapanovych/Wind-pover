@@ -17,6 +17,10 @@
       line-height: 1.78;
       color: #f8f8f8;
       text-transform: uppercase;
+
+      @media (max-width: 477px){
+      font-size: 15px;
+      }
     }
   }
 
@@ -36,5 +40,9 @@
     font-size: 28px;
     font-weight: 300;
     margin-top: 65px;
+
+    @media (max-width: 767px){
+      display: none;
+    }
   }
 }
