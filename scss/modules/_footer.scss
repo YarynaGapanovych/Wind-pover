@@ -1,0 +1,40 @@
+.footer {
+  background: #2c3e50;
+  font-family: 'Open Sans', sans-serif;
+
+
+  &__list {
+    margin: 40px 0 35px;
+
+  }
+
+  &__item {
+
+
+    &--title {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.78;
+      color: #f8f8f8;
+      text-transform: uppercase;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.54;
+    color: #7f8e9c;
+
+    &:hover {
+      color: #c5c4c4;
+    }
+  }
+
+  &__logo {
+    color: #7f8e9c;
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 65px;
+  }
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.header {
+  width: 100%;
+  min-height: 550px;
+  background: linear-gradient(32deg, rgba(44,62,80, .9) 0%, rgba(44,62,80, .8) 60%), url('../images/header_bg.jpg') no-repeat center; 
+  background-size: cover;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  color: #f8f8f8;
+  text-align: center;
+  text-transform: uppercase;
+
+
+  &__title {
+    font-family: Lato;
+    font-size: 90px;
+    font-weight: 100;
+    line-height: 0.44;
+    margin-top: 30px;
+  }
+
+  &__subtitle {
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 1.18;
+    color: #a5b6c7;
+    margin: 45px 0 60px;
+  }
+
+  &__btn {
+    border: solid 1px #f8f8f8;
+    color: #f8f8f8;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+.btn {
+  text-transform: uppercase;
+  border-radius: 4px;
+  background: transparent;
+  padding: 10px 45px;
+  cursor: pointer;
+  line-height: 2;
+}

@@ -1,0 +1,25 @@
+.team {
+  font-family: 'Lato', sans-serif;
+  margin: 80px 0;
+
+  &__title {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 0.8;
+    text-align: center;
+    color: #16a085;
+    text-transform: uppercase;
+  }
+
+  &__img {
+
+  }
+
+  &__desc {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #7f8c8d;
+    margin: 30px 0;
+  }
+}
