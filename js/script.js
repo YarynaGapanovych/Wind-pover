@@ -14,4 +14,19 @@ $(document).ready(function () {
     $('.blog-post--2').toggleClass('displayFlex')
   })
 
+
+
+  // scroll
+  let $page = $('html, body');
+  $('a[href*="#"]').click(function () {
+    $page.animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 2000);
+    return false;
+  });
+
+  // burger
+  $('.nav__burger').click(() => {
+    $('.nav__burger, .nav__list').toggleClass('active')
+  })
 })
