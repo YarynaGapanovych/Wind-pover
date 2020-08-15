@@ -14,8 +14,6 @@ $(document).ready(function () {
     $('.blog-post--2').toggleClass('displayFlex')
   })
 
-
-
   // scroll
   let $page = $('html, body');
   $('a[href*="#"]').click(function () {
