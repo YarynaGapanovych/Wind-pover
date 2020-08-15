@@ -27,4 +27,38 @@ $(document).ready(function () {
   $('.nav__burger').click(() => {
     $('.nav__burger, .nav__list').toggleClass('active')
   })
+
+  // router 
+
+  window.onload = function () {
+    console.log('Dom has loaded')
+
+    var Router = function (name, routes) {
+      return {
+        name: name,
+        routes: routes
+      }
+    }
+
+
+    const myFirstRouter = new Router('myFirstRouter', [
+      {
+        path: '/',
+        name: 'Root'
+      },
+      {
+        path: '/about',
+        name: 'About'
+      },
+      {
+        path: '/contact',
+        name: 'Contact'
+      },
+    ])
+
+    const currentPath = window.location.pathname
+    console.log(currentPath)
+
+  }
+
 })
